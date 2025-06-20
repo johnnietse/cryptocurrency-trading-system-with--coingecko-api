@@ -4,7 +4,7 @@ Professional-grade crypto trading algorithm leveraging CoinGecko's free API. Fea
 This is more like an enhanced cryptocurrency trading system with these key upgrades from the original Yahoo Finance-based version which can be found in this github repository: https://github.com/johnnietse/cryptocurrency-trading-system.git
 
 ## 🔑 Key Features
-- **Multi-Asset Support**: Analyze 15+ major cryptocurrencies (BTC, ETH, SOL, etc.) and up to 28+ cryptocurrencies as supported by CoinGecko's API
+- **Multi-Asset Support**: Analyze 15+ major cryptocurrencies (BTC, ETH, SOL, etc.) and up to 28+ cryptocurrencies are supported by CoinGecko's API
 - **CoinGecko API Integration**: Free tier access with intelligent rate limit management (can be upgraded to a CoinGecko API with full subscription)
 - **Technical Indicators**: Dual moving averages (10-day/40-day) for signal generation
 - **Backtesting Engine**: Simulate strategy vs buy-and-hold performance
