@@ -4,7 +4,7 @@ Professional-grade crypto trading algorithm leveraging CoinGecko's free API. Fea
 This is more like an enhanced cryptocurrency trading system with these key upgrades from the original Yahoo Finance-based version which can be found in this github repository: https://github.com/johnnietse/cryptocurrency-trading-system.git
 
 ## 🔑 Key Features
-- **Multi-Asset Support**: Analyze 15+ major cryptocurrencies (BTC, ETH, SOL, etc.) and up to 28+ cryptocurrencies are supported by CoinGecko's API
+- **Multi-Asset and Currency Support**: The system analyzes 15+ major cryptocurrencies (BTC, ETH, SOL, etc.) and up to 62+ currencies are supported by CoinGecko API
 - **CoinGecko API Integration**: Free tier access with intelligent rate limit management (can be upgraded to a CoinGecko API with full subscription)
 - **Technical Indicators**: Dual moving averages (10-day/40-day) for signal generation
 - **Backtesting Engine**: Simulate strategy vs buy-and-hold performance
@@ -21,6 +21,129 @@ cd cryptocurrency-trading-system-with-coingecko-api
 ```bash
 pandas numpy matplotlib seaborn scikit-learn
 ```
+
+## Usage
+- Configure assets and capital:
+```python
+# advanced_crypto_trading_system_api.py
+ASSETS = ['BTC-USD', 'ETH-USD', 'SOL-USD']  # Add/remove assets
+INITIAL_CAPITAL = 10000.0                   # Starting portfolio value
+```
+
+- Run the main script:
+```bash
+python Advanced_Crypto_Trading_System_with_Coingecko_API.py
+```
+
+## Sample Output
+```text
+======================================================================
+FREE CRYPTO TRADING SYSTEM
+Powered by CoinGecko Free API
+Enhanced with Robust Rate Limit Handling
+======================================================================
+Assets: BTC-USD, ETH-USD, LTC-USD, XRP-USD, ADA-USD, DOGE-USD, SOL-USD, BNB-USD, DOT-USD, AVAX-USD, MATIC-USD, SHIB-USD, TRX-USD, LINK-USD, ATOM-USD
+Date Range: 2024-06-21 to 2025-06-21
+Initial Capital: $10,000.00
+Using CoinGecko Free Tier API (no key required)
+
+Visualizations will be saved to: /content/trading_visualizations
+Fetching market data from CoinGecko API...
+Starting data fetch for 15 assets...
+[1/15] Fetching BTC-USD (bitcoin)...
+Rate control: Waiting 15.0s
+Successfully fetched BTC-USD data (366 records)
+[2/15] Fetching ETH-USD (ethereum)...
+Rate control: Waiting 14.9s
+Successfully fetched ETH-USD data (366 records)
+[3/15] Fetching LTC-USD (litecoin)...
+Rate control: Waiting 15.0s
+Successfully fetched LTC-USD data (366 records)
+[4/15] Fetching XRP-USD (ripple)...
+Rate control: Waiting 15.0s
+Successfully fetched XRP-USD data (366 records)
+[5/15] Fetching ADA-USD (cardano)...
+Rate control: Waiting 15.0s
+Successfully fetched ADA-USD data (366 records)
+[6/15] Fetching DOGE-USD (dogecoin)...
+Rate control: Waiting 15.0s
+Successfully fetched DOGE-USD data (366 records)
+[7/15] Fetching SOL-USD (solana)...
+Rate control: Waiting 15.0s
+Successfully fetched SOL-USD data (366 records)
+[8/15] Fetching BNB-USD (binancecoin)...
+Rate control: Waiting 15.0s
+Successfully fetched BNB-USD data (366 records)
+[9/15] Fetching DOT-USD (polkadot)...
+Rate control: Waiting 15.0s
+Successfully fetched DOT-USD data (366 records)
+[10/15] Fetching AVAX-USD (avalanche-2)...
+Rate control: Waiting 15.0s
+Successfully fetched AVAX-USD data (366 records)
+[11/15] Fetching MATIC-USD (matic-network)...
+Rate control: Waiting 15.0s
+Successfully fetched MATIC-USD data (366 records)
+[12/15] Fetching SHIB-USD (shiba-inu)...
+Rate control: Waiting 14.9s
+Successfully fetched SHIB-USD data (366 records)
+[13/15] Fetching TRX-USD (tron)...
+Rate control: Waiting 15.0s
+Successfully fetched TRX-USD data (366 records)
+[14/15] Fetching LINK-USD (chainlink)...
+Rate control: Waiting 15.0s
+Successfully fetched LINK-USD data (366 records)
+[15/15] Fetching ATOM-USD (cosmos)...
+Rate control: Waiting 15.0s
+Successfully fetched ATOM-USD data (366 records)
+
+API Usage Report:
+Total API Calls: 15
+Time Elapsed: 227.77 seconds
+Requests per minute: 3.95
+
+Data retrieval complete in 227.77 seconds
+
+======================================================================
+ANALYZING: BTC-USD
+======================================================================
+Data range: 2024-06-21 to 2025-06-21
+Records: 366
+First Close: $64,844.67
+Last Close: $103,290.11
+Price Change: 59.29%
+
+Strategy Signals:
+Buy Signals: 4, Sell Signals: 4
+
+Backtest Results:
+Final Strategy Value: $14,945.18 (Profit: $4,945.18)
+Final Buy & Hold Value: $15,928.85 (Profit: $5,928.85)
+
+Performance Metrics:
+Total Return: 49.45%
+Annual Volatility: 27.79%
+Sharpe Ratio: 1.13
+Max Drawdown: -22.54%
+MSE vs Buy&Hold: 2,083,701.56
+Saved signal plot: trading_visualizations/BTC-USD_signals_20250621_000411.png
+Saved performance plot: trading_visualizations/BTC-USD_performance_20250621_000411.png
+```
+
+
+
+## Rate Limit Management
+System features intelligent API management:
+- Automatic 15-second delays between requests
+- Exponential backoff during rate limit errors (5s → 10s → 20s)
+- Usage tracking:
+```text
+API Usage Report:
+Total API Calls: 15
+Time Elapsed: 227.77 seconds
+Requests per minute: 3.95
+```
+
+
 ### ADA-USD
 ![ADA-USD_performance_20250620_201710](https://github.com/user-attachments/assets/d4e8638d-f26d-45fc-b1f7-4a6cad35151d)
 ![ADA-USD_signals_20250620_201710](https://github.com/user-attachments/assets/2898edb3-23e3-4c09-8bad-aca69e011f16)
