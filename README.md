@@ -143,6 +143,25 @@ Time Elapsed: 227.77 seconds
 Requests per minute: 3.95
 ```
 
+## Notebook/Script Structure
+
+```text
+CryptoDataFetcher/         # Market data acquisition
+├── fetch_market_data()    # API requests + rate limits
+└── coin_ids dictionary    # 28+ imported cryptocurrencies
+
+TradingSignalsGenerator/   # Technical analysis
+├── compute_moving_averages()
+└── generate_trading_signals()
+
+PortfolioSimulator/        # Backtesting engine
+└── simulate_strategy()    # Returns + comparisons
+
+TradingVisualizer/         # Visualization tools
+├── plot_price_signals()
+└── plot_performance_comparison()
+```
+
 
 ## Examples
 
