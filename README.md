@@ -1,6 +1,6 @@
 # Advanced Cryptocurrency Trading System
 
-Professional-grade crypto trading algorithm leveraging CoinGecko's free API. Features multi-asset support, technical indicators, backtesting framework, and performance analytics with robust rate limit handling.
+Professional-grade crypto trading system leveraging CoinGecko's free API. Features multi-asset support, technical indicators, backtesting framework, and performance analytics with robust rate limit handling.
 This is more like an enhanced cryptocurrency trading system with these key upgrades from the original Yahoo Finance-based version which can be found in this github repository: https://github.com/johnnietse/cryptocurrency-trading-system.git
 
 ## 🔑 Key Features
