@@ -144,6 +144,7 @@ Requests per minute: 3.95
 ```
 
 
+## Examples
 ### ADA-USD
 ![ADA-USD_performance_20250620_201710](https://github.com/user-attachments/assets/d4e8638d-f26d-45fc-b1f7-4a6cad35151d)
 ![ADA-USD_signals_20250620_201710](https://github.com/user-attachments/assets/2898edb3-23e3-4c09-8bad-aca69e011f16)
