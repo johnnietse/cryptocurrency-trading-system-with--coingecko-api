@@ -225,3 +225,14 @@ TradingVisualizer/         # Visualization tools
 ### XRP-USD
 ![XRP-USD_performance_20250620_201709](https://github.com/user-attachments/assets/d18b590a-7afe-488f-a214-211a8ddf14fa)
 ![XRP-USD_signals_20250620_201709](https://github.com/user-attachments/assets/6f722af6-47ef-4061-b671-523cb656edf0)
+
+
+## Risk Disclosure
+Cryptocurrency trading involves substantial risk of loss and is not suitable for every investor. Past performance is not indicative of future results. This system is for educational purposes only and should not be considered financial advice.
+
+Note: This is a simulation framework only - not financial advice. Always test strategies with historical data before live trading.
+
+---
+
+## License
+This project is licensed under the MIT License. See LICENSE file for details.
