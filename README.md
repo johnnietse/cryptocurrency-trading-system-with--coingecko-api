@@ -226,6 +226,7 @@ TradingVisualizer/         # Visualization tools
 ![XRP-USD_performance_20250620_201709](https://github.com/user-attachments/assets/d18b590a-7afe-488f-a214-211a8ddf14fa)
 ![XRP-USD_signals_20250620_201709](https://github.com/user-attachments/assets/6f722af6-47ef-4061-b671-523cb656edf0)
 
+---
 
 ## Updates in Version 2 (Advanced_Cryptocurrency_Trading_System_API_V2.py and Advanced_Cryptocurrency_Trading_System_API_V2.ipynb)
 ### Core Improvements:
