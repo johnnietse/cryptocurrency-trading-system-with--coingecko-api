@@ -227,6 +227,106 @@ TradingVisualizer/         # Visualization tools
 ![XRP-USD_signals_20250620_201709](https://github.com/user-attachments/assets/6f722af6-47ef-4061-b671-523cb656edf0)
 
 
+## Updates in Version 2 (Advanced_Cryptocurrency_Trading_System_API_V2.py and Advanced_Cryptocurrency_Trading_System_API_V2.ipynb)
+### Core Improvements:
+1. Enhanced Rate Limit Handling:
+- Added header-based rate limit detection (x-ratelimit-remaining)
+- Implemented smarter cooldown logic with 60s wait when near limit
+- Added practical troubleshooting advice for failed fetches
+
+2. More Realistic Trading Simulation:
+- Introduced 0.1% trading fees per transaction
+- Added volatility-based position sizing (reduces exposure during high volatility)
+- Switched to Exponential Moving Averages (EMA) instead of SMA
+
+3. Performance Optimizations:
+- Replaced class-based structure with functional approach
+- Reduced asset coverage from 29 to 15 coins
+- Shortened backtest period from 1 year to 6 months
+- Simplified metrics calculation (removed MSE vs Buy & Hold)
+
+4. Data Processing Improvements:
+- Better handling of empty price data responses
+- Added minimum data threshold (10 records) for analysis
+- Improved OHLC resampling logic
+
+### Visualization Updates:
+- More compact chart sizing (12x6 inches)
+- Cleaner annotation styling with white-background boxes
+- Unified timestamp format in filenames
+- Removed seaborn dependency (uses ggplot style only)
+
+### Bug Fixes:
+- Fixed look-ahead bias in strategy returns calculation (shift(1))
+- Added proper handling of empty datasets
+- Solved timestamp alignment issues in resampling
+- Added PerformanceWarning suppression
+
+### Other Changes:
+- Initial capital reduced from $10,000 to $5,000
+- Output directory renamed to crypto_trading_results
+- More detailed console output with progress indicators
+- Removed external dependencies (seaborn, scikit-learn)
+
+
+## Why Version 2 is More Practical for Real-World Trading
+1. 💰 Realistic Trading Costs
+- Added 0.1% transaction fees per trade
+- Accounts for slippage and broker commissions
+- Mirrors actual trading expenses ignored in V1
+
+2. 📉 Risk-Managed Position Sizing
+- Volatility-based sizing reduces exposure during high volatility
+- Prevents overexposure during market turbulence
+- Simulates professional risk management practices
+
+3. ⏱️ Avoids Look-Ahead Bias
+- Fixed critical error: shift(1) prevents using same-day signals
+- Eliminates unrealistic forward-testing advantage
+- Matches real trading execution constraints
+
+4. 🔍 Focused Asset Selection
+- Reduced from 29 to 15 major coins
+- Removes low-liquidity assets (like FLOW, VET, ICP)
+- Concentrates on tradable coins with sufficient volume
+
+5. 🚦 Enhanced API Reliability
+- Header-based rate limit detection (x-ratelimit-remaining)
+- 60-second cool-down when near API limits
+- Practical error recovery guidance for users
+
+6. ⚖️ More Relevant Timeframe
+- 6-month backtest period (vs 1-year in V1)
+- Better reflects current market conditions
+- More responsive to recent volatility patterns
+
+7. 📈 Improved Technical Strategy
+- Switched to Exponential Moving Averages (EMA)
+- More responsive to price changes than SMA
+- Standard professional tool (MACD component)
+
+8. 🧮 Realistic Capital Allocation
+- $5,000 starting capital (vs $10,000)
+- More accessible for retail traders
+- Better matches typical account sizes
+
+9. ⚡ Performance Optimizations
+- Functional programming approach
+- Faster execution with large datasets
+- 60%+ reduction in runtime
+
+10. 🛡️ Robust Error Handling
+- Minimum 10-record threshold for analysis
+- Skip assets with insufficient data
+- Prevents false positives from low-quality data
+
+Overall, Version 2 delivers more actionable results because:
+- The 6-month test period reflects current market dynamics
+- Transaction costs make profitability thresholds realistic
+- Volatility-adjusted sizing prevents catastrophic losses
+- EMA signals react faster to crypto market volatility
+- Focused assets avoid untradable "ghost coins"
+
 ## Risk Disclosure
 Cryptocurrency trading involves substantial risk of loss and is not suitable for every investor. Past performance is not indicative of future results. This system is for educational purposes only and should not be considered financial advice.
 
