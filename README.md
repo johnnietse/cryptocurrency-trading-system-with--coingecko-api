@@ -561,34 +561,63 @@ ANALYSIS COMPLETE IN 291.9 SECONDS
 └── __main__ # Configuration setup, Data pipeline orchestration, Results reporting
 ```
 ## Examples
+### ADA-USD
 ![ADA-USD_performance_20250622_0208](https://github.com/user-attachments/assets/a544f688-b754-4017-98c0-2786f9031b40)
 ![ADA-USD_signals_20250622_0208](https://github.com/user-attachments/assets/7023ed65-582a-44dc-bca5-5b5d5f59f777)
+
+### ATOM-USD
 ![ATOM-USD_performance_20250622_0208](https://github.com/user-attachments/assets/a2957e2b-c00f-4797-99e0-40c2329c37d0)
 ![ATOM-USD_signals_20250622_0208](https://github.com/user-attachments/assets/5749b400-95a9-47d9-9536-dd07fbbce0ac)
+
+### AVAX-USD
 ![AVAX-USD_performance_20250622_0208](https://github.com/user-attachments/assets/0a461b2a-f334-4c62-8fd2-7221697e5dbf)
 ![AVAX-USD_signals_20250622_0208](https://github.com/user-attachments/assets/04347d47-2612-44fe-bbd6-aafa295a7bdc)
+
+### BNB-USD
 ![BNB-USD_performance_20250622_0208](https://github.com/user-attachments/assets/26d10ed4-ffd2-4d7a-9567-48a179fef893)
 ![BNB-USD_signals_20250622_0208](https://github.com/user-attachments/assets/e26a12d7-3f57-44cd-95f9-317ff97beda5)
+
+### BTC-USD
 ![BTC-USD_performance_20250622_0208](https://github.com/user-attachments/assets/f047ad7a-69c9-47af-aad9-6c674955dcbd)
 ![BTC-USD_signals_20250622_0208](https://github.com/user-attachments/assets/dc12d60c-5358-4a7f-883d-a4c32332424e)
-![DOGE-USD_performance_20250622_0208](https://github.com/user-attachments/assets/171b8f82-143b-43bd-9194-c14b60a57dad)
-![DOGE-USD_signals_20250622_0208](https://github.com/user-attachments/assets/1d8f00c7-81d5-408b-99b7-43626ad26227)
+
+### DOT-USD
 ![DOT-USD_performance_20250622_0208](https://github.com/user-attachments/assets/775a7945-f986-49a0-a944-1b41ea886690)
 ![DOT-USD_signals_20250622_0208](https://github.com/user-attachments/assets/9b72542e-9742-4043-bfff-6c87307d440f)
+
+### DOGE-USD
+![DOGE-USD_performance_20250622_0208](https://github.com/user-attachments/assets/171b8f82-143b-43bd-9194-c14b60a57dad)
+![DOGE-USD_signals_20250622_0208](https://github.com/user-attachments/assets/1d8f00c7-81d5-408b-99b7-43626ad26227)
+
+### ETH-USD
 ![ETH-USD_performance_20250622_0208](https://github.com/user-attachments/assets/16d2eba3-b83c-491a-a810-92fe05b65269)
 ![ETH-USD_signals_20250622_0208](https://github.com/user-attachments/assets/2939c9bd-5f96-4ecd-b378-fecc0a70c01d)
+
+### LINK-USD
 ![LINK-USD_performance_20250622_0208](https://github.com/user-attachments/assets/d805fd00-cf2d-4028-8a72-a1eac55eb144)
 ![LINK-USD_signals_20250622_0208](https://github.com/user-attachments/assets/fed08d35-09d8-4c95-805b-2494a77f9a06)
+
+### LTC-USD
 ![LTC-USD_performance_20250622_0208](https://github.com/user-attachments/assets/3b7a5b88-3c15-4011-9267-b3645f08d500)
 ![LTC-USD_signals_20250622_0208](https://github.com/user-attachments/assets/d14bee13-d999-47e7-8925-496ecbb48522)
+
+### MATIC-USD
 ![MATIC-USD_performance_20250622_0208](https://github.com/user-attachments/assets/502f1891-8094-4d6a-8a6b-fd589e9a3041)
 ![MATIC-USD_signals_20250622_0208](https://github.com/user-attachments/assets/3e4d2052-bf03-4d2d-8d25-f87515bcdc21)
+
+### SHIB-USD
 ![SHIB-USD_performance_20250622_0208](https://github.com/user-attachments/assets/d0c59df3-0cc4-4e86-a8d5-998a5070a79a)
 ![SHIB-USD_signals_20250622_0208](https://github.com/user-attachments/assets/5536f5b9-8acc-4c8b-9eaa-cd56cf92c553)
+
+### SOL-USD
 ![SOL-USD_performance_20250622_0208](https://github.com/user-attachments/assets/41dae2ee-9601-4f87-953c-d9659a3bc8d3)
 ![SOL-USD_signals_20250622_0208](https://github.com/user-attachments/assets/42434a13-c682-4f0f-9af7-d02f571d7107)
+
+### TRX-USD
 ![TRX-USD_performance_20250622_0208](https://github.com/user-attachments/assets/8212a592-aa1a-4283-9416-b059e2aa3a76)
 ![TRX-USD_signals_20250622_0208](https://github.com/user-attachments/assets/9f8f1b24-e19f-401e-9cab-bc92d6080ba3)
+
+### XRP-USD
 ![XRP-USD_performance_20250622_0208](https://github.com/user-attachments/assets/6a206949-7eb7-4646-a4c6-d9dcc74a14f3)
 ![XRP-USD_signals_20250622_0208](https://github.com/user-attachments/assets/a5958cbf-efc3-4746-b392-9415f5c4b72c)
 
